@@ -1,0 +1,8 @@
+<nav>
+    <a href="/">Home</a>
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for page in pages %} {% if page.title %} {% if page.title != "Home" %}
+    \\
+    <a href="{{ page.url | prepend: site.baseurl }}" >{{ page.title }}</a>
+    {% endif %} {% endif %} {% endfor %}
+</nav>
