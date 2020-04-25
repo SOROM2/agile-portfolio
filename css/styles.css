@@ -50,12 +50,20 @@ body > div {
     text-align: center;
 }
 
+hr {
+    border: 1px solid #e51429;
+}
+
+h1, h2, h3, h4 {
+    color:  #e51429;
+}
+
 pre {
     margin: 0;
 }
 
 a {
-    color: #d81a2d;
+    color: #e51429;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
@@ -67,5 +75,5 @@ a {
 }
 
 #footer a {
-    color: #d81a2d;
+    color: #e51429;
 }
