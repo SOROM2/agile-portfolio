@@ -29,7 +29,7 @@ body > div {
 }
 
 #sprintcontent {
-    padding: 10vh 30vw;
+    padding: 10vh 25vw;
     flex-direction: column;
     align-items: start;
     flex-grow: 1;
