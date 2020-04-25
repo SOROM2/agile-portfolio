@@ -7,7 +7,7 @@ order: 1
 # Achievements
 For a first sprint, I think the groups gets on well and we haven't identified any potential conflicts, so I think we will be able to work well as a group.
 
-This sprint, the group managed to have a standup meeting every few days, and it kept us on track to deliver to our customer. This was because we all mostly shared similar classes during the weeks, so it was very easy to do.
+This sprint, the group was able to do semi-regular standup meetings and it kept us on track to deliver to our customer. This was because we all mostly shared similar classes during the weeks, so it was very easy to do.
 Unfortunately, we were unable to meet with our client because they ended up being busy so we rescheduled the meeting with him the same day. At this meething, we were able to present the features we had promised to our client, although with some small technical difficulties having to do with laravel file permissions which was solved in-meeting.
 
 Overall, I believe we worked as a group well however, we need to communicate with each other more regularly in our slack channel.
@@ -44,8 +44,12 @@ And the with the fix implemented:
 
 This issue was covered as part of input validation for the 'record your life' section of the site, which was handled by another group member.
 
+___
+
 # Agile
 This sprint went smoothly thanks to the use of the github projects kanban board, and that it made it easier for everyone in the group to keep track of what everyone else is working on. Because of this, we were able to Deliver the promised features to the customer on-time.
+
+___
 
 # Self Reflection
 
