@@ -4,23 +4,58 @@ title: One
 order: 1
 ---
 
-Est magni nesciunt quia eveniet sint. Iste tenetur dolor nostrum et ullam ea. Iusto sunt suscipit consequatur aut. Accusantium dolor unde atque est non sunt veritatis harum. Dolorum explicabo non repellendus temporibus et in harum. Consequatur sunt et quos qui sed inventore et.
+# Achievements
 
-Rerum aspernatur maxime occaecati vel iste soluta. Voluptatem et ipsam aut odit necessitatibus aut. In et et sed quisquam beatae corporis. Expedita voluptatibus odio ullam dolores libero esse. Dolor explicabo voluptatem illo dolor.
+For a first sprint, I think the groups gets on well and we haven't identified any potential conflicts, so I think we will be able to work well as a group.
 
-Aut enim numquam aut. Ut est laboriosam et atque sint saepe. Reprehenderit accusantium corrupti optio temporibus. Error dolorem neque corrupti amet quisquam est nihil est. Voluptatem voluptates est labore ipsum aliquid. Neque consectetur numquam incidunt odio voluptas ipsa.
+This sprint, the group managed to have a standup meeting every few days, and it kept us on track to deliver to our customer. This was because we all mostly shared similar classes during the weeks, so it was very easy to do.
+Unfortunately, we were unable to meet with our client because they ended up being busy so we rescheduled the meeting with him the same day. At this meething, we were able to present the features we had promised to our client, although with some small technical difficulties having to do with laravel file permissions which was solved in-meeting.
 
-Deleniti et quo et quod quia. Quos eveniet assumenda culpa. Doloribus corporis deleniti et.
+Overall, I believe we worked as a group well however, we need to communicate with each other more regularly in our slack channel.
 
-Dignissimos quia sit nulla. Rem dolores aut sint. Culpa tenetur nihil ut quis rerum eos qui nihil. Et voluptas deleniti illum eos nemo nihil in voluptas. Veritatis itaque ipsa corrupti aut iure qui.
+___
 
-Officiis qui dignissimos sint iste optio ut similique. Voluptatem enim eveniet iusto omnis voluptatem sed. Rerum consequatur id ad ipsum. Rerum et voluptate ex debitis eos.
+In this sprint I was assigned and completed the following tasks:
 
-Officia ea aspernatur ea aliquam quo suscipit ad. Facere laborum suscipit et dignissimos et nobis. Harum omnis veritatis velit est reiciendis et.
+## Enter sleep data
 
-Totam cupiditate non et vel neque velit quod sed. Ut et placeat recusandae fugit quia aliquam accusamus voluptatum. Dolorem cupiditate explicabo ea debitis sed quo. Et omnis nesciunt architecto. Dolorem doloribus assumenda facere odit. Non quia doloremque optio.
+![Issue 10](/img/10_issue.jpg)
 
-Consequatur soluta modi aut quae suscipit blanditiis quo. Exercitationem vitae est magnam. Eaque vero qui quo necessitatibus ea mollitia. Dolore in quaerat quo.
+This issue required me to create a database migration to add a 'sleep' field to each user, and a method of inputting that sleep data.
 
-Ullam non exercitationem vero laudantium at est omnis. Non ratione minus mollitia aspernatur ex est vel et. Non enim quibusdam voluptas cumque. Occaecati unde delectus dolorum fuga quod in esse. Molestiae dolorem optio libero aliquam. Dolorem nesciunt nesciunt porro.
+The form can be seen below:
 
+![Evidence for issue 10](/img/10_evidence.jpg)
+
+## Calendar displays exercise records incorrectly
+
+![Issue 21](/img/21_issue.jpg)
+
+This issue was a trivial fix, the code originally tried to display the session from the day recorded in the database to the following day, which was undefined so it would extend from the session date until the current date regardless of what day it was as seen below:
+
+![Issue 21 before fix](/img/21_before.png)
+
+And the with the fix implemented:
+
+![Issue 21 after fix](/img/21_after.png)
+
+## Empty data fields cause errors
+
+![Issue 22](/img/22_issue.jpg)
+
+This issue was covered as part of input validation for the 'record your life' section of the site, which was handled by another group member.
+
+# Agile
+This sprint went smoothly thanks to the use of the github projects kanban board, and that it made it easier for everyone in the group to keep track of what everyone else is working on. Because of this, we were able to Deliver the promised features to the customer on-time, and
+
+# Self Reflection
+
+## What did I do well?
+I completed the tasks in a quick and timely manner
+
+## What could I have done better?
+I think
+
+## What lessons did I learn?
+
+## What barriers did I encounter?
