@@ -5,6 +5,5 @@ github_username:  SOROM2
 
 markdown: kramdown
 
-plugins:
-  - jekyll-feed
-
+exclude: 
+- readme.md
