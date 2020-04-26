@@ -51,11 +51,11 @@ body > div {
 }
 
 hr {
-    border: 1px solid #e51429;
+    border: 1px solid #fd2441;
 }
 
 h1, h2, h3, h4 {
-    color:  #e51429;
+    color:  #fd2441;
 }
 
 pre {
@@ -63,7 +63,7 @@ pre {
 }
 
 a {
-    color: #e51429;
+    color: #fd2441;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
@@ -75,5 +75,5 @@ a {
 }
 
 #footer a {
-    color: #e51429;
+    color: #fd2441;
 }
