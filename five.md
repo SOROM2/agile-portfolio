@@ -8,6 +8,8 @@ order: 5
 
 This sprint was about half the size of the last sprint was, while the last sprint's workload was maintainable, it was a bit much for the one-week sprints we allotted ourselves.
 
+I also ended up helping another teammate with a major feature they were having trouble with, seen below.
+
 ___
 
 In this sprint I was assigned and completed the following tasks:
@@ -39,6 +41,29 @@ Finally a schedule had to be added to the project that would check all the user 
 Evidence of task:
 
 ![Evidence of profile for 9](/img/32_evidence.jpg)
+
+## Friends functionality
+
+This is one of the issues I was not assigned, but ended up helping a teammate with since they were having a hard time.
+
+![Issue 71](/img/71_issue.jpg)
+
+The user interface would show all the users on the site, current friends, sent requests and recieved requests.
+
+The useage cases can be seen below:
+- Request a user to be your friend.
+- Cancel a sent request.
+- Cancel a request you recieved.
+- Accept a request you recieved.
+- Delete a current friend.
+
+This was implemented with 2 database tables, one to hold pending requests, where the order of the 'tuple' of users in the database is used to determine whether you sent or recieved the request, and another table which is used to contain all accepted friendships with users.
+
+Extra care was taken to handle errors because it could be possible a user accepts your friend request, but you click the cancel button after the fact. situations like this are handled and throw appropriate errors.
+
+Evidence of friends functionality:
+
+![71 evidence](/img/71_evidence.jpg)
 
 ___
 
