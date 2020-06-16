@@ -2,6 +2,9 @@
     <span class="left foot">
         <a href="https://github.com/SOROM2">Github</a>
     </span>
+    {% if page.title != "Home" %}
+        {% include nav.html %}
+    {% endif %}
     <span class="right foot">
         <a href="#">Go to top</a>
     </span>
