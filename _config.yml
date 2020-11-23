@@ -1,6 +1,6 @@
 title: "Portfolio"
-baseurl: "https://sorom2.github.io/agile-portfolio/"
-url: "https://sorom2.github.io/agile-portfolio/"
+baseurl: "/agile-portfolio"
+url: "https://sorom2.github.io"
 github_username:  SOROM2
 
 markdown: kramdown
