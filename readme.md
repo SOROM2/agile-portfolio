@@ -2,4 +2,4 @@
 
 ## Probably in a complete-ish / complete state now
 
-Site should be live [HERE](http://softeng-portfolio.blueduke.nz)
+Site should be live [HERE](https://sorom2.github.io/agile-portfolio/)
